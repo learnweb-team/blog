@@ -1,0 +1,3 @@
+[submodule "themes/hugo-future-imperfect"]
+	path = themes/hugo-future-imperfect
+	url = https://github.com/learnweb-team/hugo-future-imperfect.git
