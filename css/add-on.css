@@ -4,3 +4,121 @@
   is an official part of the theme (ex. Pull Requests) should be included in main.css
   within the formating given.
 */
+.person-card {
+  text-align: center;
+  box-shadow: 0;
+  -moz-box-shadow: 0;
+  -webkit-box-shadow: 0;
+  -webkit-transition: box-shadow .3s;
+  -moz-transition: box-shadow .3s;
+  transition: box-shadow .3s;
+  list-style: none;
+}
+
+.person-card:hover {
+  -webkit-box-shadow: 0 0 18px 0 rgba(50,50,50,0.5);
+  -moz-box-shadow: 0 0 18px 0 rgba(50,50,50,0.5);
+  box-shadow: 0 0 18px 0 rgba(50,50,50,0.5);
+}
+
+.person-card .person-image {
+  border-radius: 50%;
+}
+
+.person-card .person-image {
+  display: block;
+  height: 100px;
+  margin: 10px auto 6px;
+}
+
+.person-card .person-card-header {
+  background: #fff;
+  padding: 6px 0 8px;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+.person-card .person-card-header h4 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #777;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.person-card .person-card-header .person-location {
+  font-size: 13px;
+  font-weight: 400;
+  color: #757575;
+}
+
+.person-card .role-ux-ui .person-card-footer {
+  background: #EB3F79;
+}
+
+.person-card .role-marketing .person-card-footer {
+  background: #7D56C1;
+}
+
+.person-card .role-product-strategy .person-card-footer {
+  background: #FF6F42;
+}
+
+.person-card .role-technology .person-card-footer {
+  background: #5B6ABF;
+}
+
+.person-card .person-card-footer {
+  background: #7D56C1;
+}
+
+.person-card .person-card-footer span {
+  color: #F1F2F2;
+  font-size: 13px;
+}
+
+.person-card .person-card-footer span.person-role {
+  font-weight: 500;
+}
+
+.person-card .person-card-footer .person-skills-container {
+  height: 34px;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.person-card .person-card-footer .person-skills {
+  height: 34px;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  width: 238px;
+}
+
+.person-card .person-card-footer .person-skills span {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+#experts-body .person-card {
+  width: 98.5%;
+  float: left;
+  margin: 8px .75%;
+}
+
+@media screen and (min-width: 768px) {
+  .person-card {
+    width: 48.5%;
+    margin: 8px .75%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .person-card {
+    width: 23.5%;
+    margin: 8px .75%;
+  }
+}
