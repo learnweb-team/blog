@@ -55,11 +55,11 @@ pluralizeListTitles = false
 # parms.intro will appear on the sidebar
 # This is optional, but it's suggested to use
 [params.intro]
-    header    = "Hugo Future Imperfect"
+    header    = "Learn Web Korea"
 
-    paragraph = "Another fine responsive site template by <a href=\"http://html5up.net\">HTML5 UP</a>. Ported by Julio Pescador with some extra goodies <i class='fa fa-hand-peace-o'></i>"
+    paragraph = "웹 개발의 모든 것을 배워봐요! <br> 웹의 Frontend, Backend 기술들을 같이 배워고 공유하는 장소입니다. <i class='fa fa-hand-peace-o'></i>"
 
-    about     = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tellus lacus, auctor vehicula molestie quis, tempor quis velit. Quisque in quam ac leo efficitur vulputate. Phasellus ullamcorper aliquam sodales. Maecenas sit amet condimentum ipsum. Proin sit amet ligula elit. Mauris."
+    # about     = "웹 개발의 모든 것을 다루는 곳"
 
 # This will also appear on the sidebar.
 # A width of less than 100px is recommended
@@ -68,9 +68,9 @@ pluralizeListTitles = false
     src       = "/img/main/logo.jpg"
     # modify your picture in the shape of a circle or
     # future imperfect's hexagonal shape
-    circle    = false
-    imperfect = true
-    width     = ""
+    circle    = true
+    # imperfect = true
+    width     = "100"
     alt       = "Learn Web Korea"
 
 # Adjust the amount of recent posts on the sidebar.
@@ -82,31 +82,31 @@ pluralizeListTitles = false
 # You can use identifier to prepend a font awesome icon to your text
 
 [[menu.main]]
-    name = "Home"
+    name = "홈"
     url = "/"
     identifier = "fa fa-home"
     weight = 1
 
 [[menu.main]]
-    name = "About"
+    name = "배움의 길"
     url = "/about/"
     identifier = "fa fa-id-card-o"
     weight = 2
 
 [[menu.main]]
-    name = "Blog"
+    name = "글"
     url = "/blog/"
     identifier = "fa fa-newspaper-o"
     weight = 3
 
 [[menu.main]]
-    name = "Itemized"
-    url = "/itemized/"
+    name = "작가"
+    url = "/authors/"
     identifier = "fa fa-list"
     weight = 4
 
 [[menu.main]]
-    name = "Categories"
+    name = "카테고리"
     url = "/categories/"
     identifier = "fa fa-sitemap"
     weight = 5
@@ -121,7 +121,7 @@ pluralizeListTitles = false
 # socialAppearAtTop or socialAppearAtBottom is set to true in the params area
 # The social media icons will appear on the sidebar
 [social]
-    github          = "jpescador"
+    github          = "learnweb-team"
     bitbucket       = ""
     jsfiddle        = ""
     codepen         = ""
@@ -147,5 +147,5 @@ pluralizeListTitles = false
     facebook        = ""
     facebook_admin  = ""
     twitter_domain  = ""
-    twitter         = "julio_pescador"
-    email           = ""
+    twitter         = "learnweb-team"
+    email           = "haibane84@gmail.com"
